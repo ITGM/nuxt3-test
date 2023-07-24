@@ -24,6 +24,9 @@
     "unocss": "^0.53.5"
   },
   "dependencies": {
+    "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
+    "@pinia/nuxt": "^0.4.11",
+    "pinia": "^2.1.4",
     "vant": "^4.6.2"
   }
 }
