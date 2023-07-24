@@ -12,6 +12,7 @@
   - sass
 - 原子化 css,本地 svg 转 icon
   - [unocss](https://unocss.dev/)
+  - pnpm add @iconify/utils @unocss/nuxt unocss -D
 - 状态管理和持久化
   - [pinia](https://pinia.vuejs.org/) + [Pinia-Plugin-Persistedstate](https://prazdevs.github.io/pinia-plugin-persistedstate/)
 - 多语言
