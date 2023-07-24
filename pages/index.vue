@@ -1,3 +1,6 @@
+<script setup>
+const { x, y } = useMouse();
+</script>
 <template>
   <h1 class="color-green">首页</h1>
   <p class="text-center">unocss icons</p>
@@ -8,7 +11,10 @@
     <i class="i-ass-icon-xiaoxi"></i>
     <i class="i-ass-invalid-name"></i>
   </div>
+  <p>vueuse</p>
+  <div>x:{{ x }} y:{{ y }}</div>
 </template>
+
 <style lang="scss" scoped>
 .color-green {
   font-weight: bold;

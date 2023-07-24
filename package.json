@@ -9,16 +9,17 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@iconify/utils": "^2.1.7",
     "@nuxt/devtools": "latest",
     "@types/node": "^18.16.19",
-    "@iconify/utils": "^2.1.7",
     "@unocss/nuxt": "^0.53.5",
-    "unocss": "^0.53.5",
-    "sass": "^1.64.0",
+    "@unocss/preset-rem-to-px": "^0.53.6",
     "@vant/nuxt": "^1.0.2",
     "nuxt": "^3.6.5",
     "postcss": "^8.4.26",
-    "postcss-px-to-viewport-8-plugin": "^1.2.2"
+    "postcss-px-to-viewport-8-plugin": "^1.2.2",
+    "sass": "^1.64.0",
+    "unocss": "^0.53.5"
   },
   "dependencies": {
     "vant": "^4.6.2"
